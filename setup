@@ -1,0 +1,275 @@
+#!/bin/bash
+
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+##                                         Growth Sales                                        ##
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+
+## Cores
+amarelo="\e[33m"
+verde="\e[32m"
+branco="\e[97m"
+bege="\e[93m"
+vermelho="\e[91m"
+reset="\e[0m"
+
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+##                                         Growth Sales                                        ##
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+
+sudo apt update
+
+sudo apt upgrade -y
+
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+##                                         Growth Sales                                        ##
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+
+nome_aviso(){
+
+clear
+echo ""
+echo -e "$amarelo===================================================================================================$reset"
+echo -e "$amarelo=                                                                                                 $amarelo=$reset"
+echo -e "$amarelo=                     $branco  █████╗     ██╗   ██╗    ██╗    ███████╗     ██████╗                       $amarelo=$reset"
+echo -e "$amarelo=                     $branco ██╔══██╗    ██║   ██║    ██║    ██╔════╝    ██╔═══██╗                      $amarelo=$reset"
+echo -e "$amarelo=                     $branco ███████║    ██║   ██║    ██║    ███████╗    ██║   ██║                      $amarelo=$reset"
+echo -e "$amarelo=                     $branco ██╔══██║    ╚██╗ ██╔╝    ██║    ╚════██║    ██║   ██║                      $amarelo=$reset"
+echo -e "$amarelo=                     $branco ██║  ██║     ╚████╔╝     ██║    ███████║    ╚██████╔╝                      $amarelo=$reset"
+echo -e "$amarelo=                     $branco ╚═╝  ╚═╝      ╚═══╝      ╚═╝    ╚══════╝     ╚═════╝                       $amarelo=$reset"
+echo -e "$amarelo=                                                                                                 $amarelo=$reset"
+echo -e "$amarelo===================================================================================================$reset"
+echo ""
+echo ""
+}
+
+nome_atualizadno(){
+    clear
+    echo ""
+    echo -e "$amarelo===================================================================================================$reset"
+    echo -e "$amarelo=                                                                                                 $amarelo=$reset"
+    echo -e "$amarelo=    $branco  █████╗ ████████╗██╗   ██╗ █████╗ ██╗     ██╗███████╗ █████╗ ███╗   ██╗██████╗  ██████╗     $amarelo=$reset"
+    echo -e "$amarelo=    $branco ██╔══██╗╚══██╔══╝██║   ██║██╔══██╗██║     ██║╚══███╔╝██╔══██╗████╗  ██║██╔══██╗██╔═══██╗    $amarelo=$reset"
+    echo -e "$amarelo=    $branco ███████║   ██║   ██║   ██║███████║██║     ██║  ███╔╝ ███████║██╔██╗ ██║██║  ██║██║   ██║    $amarelo=$reset"
+    echo -e "$amarelo=    $branco ██╔══██║   ██║   ██║   ██║██╔══██║██║     ██║ ███╔╝  ██╔══██║██║╚██╗██║██║  ██║██║   ██║    $amarelo=$reset"
+    echo -e "$amarelo=    $branco ██║  ██║   ██║   ╚██████╔╝██║  ██║███████╗██║███████╗██║  ██║██║ ╚████║██████╔╝╚██████╔╝    $amarelo=$reset"
+    echo -e "$amarelo=    $branco ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝     $amarelo=$reset"
+    echo -e "$amarelo=                                                                                                 $amarelo=$reset"
+    echo -e "$amarelo===================================================================================================$reset"
+    echo ""
+    echo ""
+}
+nome_iniciando(){
+    clear
+    echo ""
+    echo -e "$amarelo===================================================================================================$reset"
+    echo -e "$amarelo=                                                                                                 $amarelo=$reset"
+    echo -e "$amarelo=                  $branco ██╗███╗   ██╗██╗ ██████╗██╗ █████╗ ███╗   ██╗██████╗  ██████╗                 $amarelo=$reset"
+    echo -e "$amarelo=                  $branco ██║████╗  ██║██║██╔════╝██║██╔══██╗████╗  ██║██╔══██╗██╔═══██╗                $amarelo=$reset"
+    echo -e "$amarelo=                  $branco ██║██╔██╗ ██║██║██║     ██║███████║██╔██╗ ██║██║  ██║██║   ██║                $amarelo=$reset"
+    echo -e "$amarelo=                  $branco ██║██║╚██╗██║██║██║     ██║██╔══██║██║╚██╗██║██║  ██║██║   ██║                $amarelo=$reset"
+    echo -e "$amarelo=                  $branco ██║██║ ╚████║██║╚██████╗██║██║  ██║██║ ╚████║██████╔╝╚██████╔╝                $amarelo=$reset"
+    echo -e "$amarelo=                  $branco ╚═╝╚═╝  ╚═══╝╚═╝ ╚═════╝╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝                 $amarelo=$reset"
+    echo -e "$amarelo=                                              v. 2.5.8                                           $amarelo=$reset"
+    echo -e "$amarelo===================================================================================================$reset"
+    echo ""
+    echo ""
+}
+
+nome_verificando(){
+    clear
+    echo ""
+    echo -e "$amarelo===================================================================================================$reset"
+    echo -e "$amarelo=                                                                                                 $amarelo=$reset"
+    echo -e "$amarelo=       $branco ██╗   ██╗███████╗██████╗ ██╗███████╗██╗ ██████╗ █████╗ ███╗   ██╗██████╗  ██████╗       $amarelo=$reset"
+    echo -e "$amarelo=       $branco ██║   ██║██╔════╝██╔══██╗██║██╔════╝██║██╔════╝██╔══██╗████╗  ██║██╔══██╗██╔═══██╗      $amarelo=$reset"
+    echo -e "$amarelo=       $branco ██║   ██║█████╗  ██████╔╝██║█████╗  ██║██║     ███████║██╔██╗ ██║██║  ██║██║   ██║      $amarelo=$reset"
+    echo -e "$amarelo=       $branco ╚██╗ ██╔╝██╔══╝  ██╔══██╗██║██╔══╝  ██║██║     ██╔══██║██║╚██╗██║██║  ██║██║   ██║      $amarelo=$reset"
+    echo -e "$amarelo=       $branco  ╚████╔╝ ███████╗██║  ██║██║██║     ██║╚██████╗██║  ██║██║ ╚████║██████╔╝╚██████╔╝      $amarelo=$reset"
+    echo -e "$amarelo=       $branco   ╚═══╝  ╚══════╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝       $amarelo=$reset"
+    echo -e "$amarelo=                                                                                                 $amarelo=$reset"
+    echo -e "$amarelo===================================================================================================$reset"
+    echo ""
+    echo ""
+}
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+##                                         Growth Sales                                        ##
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+
+desc_ver(){
+echo -e "                            Este script recomenda o uso do Ubuntu$amarelo 20.04$branco.$reset"
+echo ""
+} 
+
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+##                                         Growth Sales                                        ##
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+
+clear
+nome_verificando
+echo "Aguarde enquanto verificamos algumas informações."
+sleep 1
+
+# Verifica se está usando Ubuntu 20.04
+if ! grep -q 'Ubuntu 20.04' /etc/os-release; then
+    nome_aviso
+    desc_ver
+    #echo "Este script recomenda o uso do Ubuntu 20.04."
+    sleep 5
+    clear
+    nome_verificando
+fi
+
+# Verifica se o usuário é root
+if [ "$(id -u)" -ne 0 ]; then
+    echo "Este script precisa ser executado como root. Executando sudo su..."
+    sudo su
+fi
+
+# Verifica se o usuário está no diretório /root/
+if [ "$PWD" != "/root" ]; then
+    echo "Mudando para o diretório /root/"
+    cd /root || exit
+fi
+
+#------------------------------------------
+
+
+nome_iniciando 
+
+## Fazendo upgrade
+sudo apt upgrade -y > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "1/12 - [ OK ] - Fazendo Upgrade"
+else
+    echo "1/12 - [ OFF ] - Fazendo Upgrade"
+fi
+
+echo ""
+
+## Instalando Sudo
+apt install sudo -y > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "2/12 - [ OK ] - Verificando/Instalando sudo"
+else
+    echo "2/12 - [ OFF ] - Verificando/Instalando sudo"
+fi
+
+echo ""
+
+## Instalando apt-utils
+sudo apt-get install -y apt-utils > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "3/12 - [ OK ] - Verificando/Instalando apt-utils"
+else
+    echo "3/12 - [ OFF ] - Verificando/Instalando apt-utils"
+fi
+
+echo ""
+
+## Instalando dialog
+sudo apt-get install -y dialog > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "4/12 - [ OK ] - Verificando/Instalando dialog"
+else
+    echo "4/12 - [ OFF ] - Verificando/Instalando dialog"
+fi
+
+echo ""
+
+## Instalando jq
+sudo apt-get install -y jq > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "5/12 - [ OK ] - Verificando/Instalando jq 1/2"
+else
+    echo "5/12 - [ OFF ] - Verificando/Instalando jq 1/2"
+fi
+
+echo ""
+
+## Instalando jq
+sudo apt install jq -y > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "6/12 - [ OK ] - Verificando/Instalando jq 2/2"
+else
+    echo "6/12 - [ OFF ] - Verificando/Instalando jq 2/2"
+fi
+
+echo ""
+
+## Instalando apache2-utils
+sudo apt install apache2-utils -y > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "7/12 - [ OK ] - Verificando/Instalando apache2-utils 1/2"
+else
+    echo "7/12 - [ OFF ] - Verificando/Instalando apache2-utils1/2"
+fi
+
+echo ""
+
+## Instalando apache2-utils
+apt install apache2-utils -y > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "8/12 - [ OK ] - Verificando/Instalando apache2-utils 2/2"
+else
+    echo "8/12 - [ OFF ] - Verificando/Instalando apache2-utils 2/2"
+fi
+
+echo ""
+
+## Instalando git
+apt install git -y > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "9/12 - [ OK ] - Verificando/Instalando Git"
+else
+    echo "9/12 - [ OFF ] - Verificando/Instalando Git"
+fi
+
+echo ""
+
+## Fazendo update
+sudo apt update > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "10/12 - [ OK ] - Fazendo Update"
+else
+    echo "10/12 - [ OFF ] - Fazendo Update"
+fi
+
+echo ""
+
+## Fazendo upgrade
+sudo apt upgrade -y > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "11/12 - [ OK ] - Fazendo Upgrade"
+else
+    echo "11/12 - [ OFF ] - Fazendo Upgrade"
+fi
+
+# Verifica se o arquivo SetupGrowth já existe
+if [ -e "SetupGrowth" ]; then
+    echo ""
+    rm SetupGrowth
+fi
+
+# Baixa o script
+curl -sSL https://github.com/bruno-growthsales/growth/blob/b38a1169135ee5f540d15b44ad6b784e92fc0e8c/setupGrowth -o SetupGrowth
+if [ $? -eq 0 ]; then
+    echo "12/12 - [ OK ] - Baixando o script"
+    # Executa o script baixado
+    chmod +x SetupGrowth
+    ./SetupGrowth
+else
+    echo "12/12 - [ OFF ] - Baixando o script"
+    echo "Encerrando o setup"
+    sleep 5
+fi
+
+
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+##                                         Growth Sales                                        ##
+## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
+
+sudo apt update
+sudo apt upgrade -y
+
+clear
+rm SetupGrowth
